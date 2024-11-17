@@ -1,0 +1,16 @@
+.about {
+    background-color: #283048;
+    color: #ffffff;
+    padding: 3rem;
+    text-align: center;
+  }
+  
+  .about h2 {
+    color: #3399ff;
+  }
+  
+  .about p {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
