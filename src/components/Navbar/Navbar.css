@@ -2,11 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1b1f2a;
+    background-color: #414256e1;
     color: white;
     padding: 1rem 2rem;
     position: sticky;
     top: 0;
+    border-bottom: 2px solid #3399ff
   }
   
   .navbar-logo img {
@@ -27,5 +28,49 @@
   
   .navbar-links a:hover {
     color: #3399ff;
+  }
+  .navbar-toggler {
+    display: none;
+    font-size: 28px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-container {
+      justify-content: space-between;
+    }
+  
+    .navbar-links {
+      display: none;
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #000;
+      z-index: 100;
+    }
+  
+    .navbar-links.active {
+      display: flex;
+    }
+  
+    .navbar-toggler {
+      display: block;
+      font-size: 28px;
+      margin-left: auto;
+      padding-right: 20px;
+      z-index: 101;
+    }
+  
+    .navbar-brand img {
+      max-width: 150px;
+      padding-left: 0;
+    }
   }
   
