@@ -10,7 +10,6 @@ function Features() {
   return (
     <section className="feature-section">
       <div className="custom-container">
-        
         {/* Blockchain Sertifika */}
         <div className="feature">
           <div className="feature-image-container">
@@ -23,7 +22,9 @@ function Features() {
           <div className="feature-text">
             <h3>Merkeziyetsiz Sertifika</h3>
             <p>
-              Öğrenciler, başarılarını blok zinciri üzerinden doğrulanabilir dijital sertifikalar olarak alır. Bu sertifikalar, merkeziyetsiz bir ağda saklanır ve her zaman erişilebilir durumdadır.
+              Öğrenciler, başarılarını blok zinciri üzerinden doğrulanabilir
+              dijital sertifikalar olarak alır. Bu sertifikalar, merkeziyetsiz
+              bir ağda saklanır ve her zaman erişilebilir durumdadır.
             </p>
           </div>
         </div>
@@ -40,7 +41,9 @@ function Features() {
           <div className="feature-text">
             <h3>Öğrenci ve Eğitmen Kontrolü</h3>
             <p>
-              Öğrenciler ve eğitmenler, kurs seçimi ve içerik yönetimi konusunda tam kontrol sahibidir. Her kullanıcı, kendi eğitim sürecini yönetebilir ve değerlendirme sürecine katkıda bulunabilir.
+              Öğrenciler ve eğitmenler, kurs seçimi ve içerik yönetimi konusunda
+              tam kontrol sahibidir. Her kullanıcı, kendi eğitim sürecini
+              yönetebilir ve değerlendirme sürecine katkıda bulunabilir.
             </p>
           </div>
         </div>
@@ -57,16 +60,15 @@ function Features() {
           <div className="feature-text">
             <h3>Güvenli Veri Yönetimi</h3>
             <p>
-              Blok zinciri altyapısıyla, tüm veriler güvence altındadır. Öğrenci ve eğitmen bilgileri, merkezi olmayan bir şekilde saklanarak, gizliliği ve güvenliği üst düzeyde korur.
+              Blok zinciri altyapısıyla, tüm veriler güvence altındadır. Öğrenci
+              ve eğitmen bilgileri, merkezi olmayan bir şekilde saklanarak,
+              gizliliği ve güvenliği üst düzeyde korur.
             </p>
           </div>
         </div>
-
       </div>
     </section>
   );
 }
 
 export default Features;
-
-

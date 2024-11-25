@@ -79,7 +79,10 @@ const CourseDetailsPage = () => {
         <h2>Videolar</h2>
         <div className="card-list">
           {videos.map((video) => (
-            <div key={video.id} className={`card ${video.watched ? "watched" : ""}`}>
+            <div
+              key={video.id}
+              className={`card ${video.watched ? "watched" : ""}`}
+            >
               <h3>{video.title}</h3>
               <button onClick={() => handleWatchedToggle(video.id)}>
                 {video.watched ? "İzlemeden Kaldır" : "İzle"}
@@ -94,7 +97,10 @@ const CourseDetailsPage = () => {
         <h2>Ödevler</h2>
         <div className="card-list">
           {homeworks.map((hw) => (
-            <div key={hw.id} className={`card ${hw.completed ? "completed" : ""}`}>
+            <div
+              key={hw.id}
+              className={`card ${hw.completed ? "completed" : ""}`}
+            >
               <h3>{hw.title}</h3>
               {hw.completed ? (
                 <span className="badge">Tamamlandı</span>
@@ -134,4 +140,3 @@ const CourseDetailsPage = () => {
 };
 
 export default CourseDetailsPage;
-

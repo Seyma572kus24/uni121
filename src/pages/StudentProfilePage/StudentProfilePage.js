@@ -2,7 +2,6 @@ import React from "react";
 import "./StudentProfilePage.css"; // Custom styles
 function StudentProfilePage() {
   return (
-
     <div className="student-profile-page">
       {/* Sidebar */}
       <aside className="sidebar">

@@ -16,9 +16,6 @@ function Navbar() {
         <li>
           <a href="#about">Hakkında</a>
         </li>
-        <li>
-          <a href="#contact">İletişim</a>
-        </li>
       </ul>
     </nav>
   );

@@ -34,23 +34,23 @@ const courses = [
 function CourseListPage({ onEnroll }) {
   return (
     <>
-        <Navbar /> {/* Navbar'ı burada gösteriyoruz */}
-    <div className="course-list">
-      <h2>Öğretmenlerin Yüklediği Dersler</h2>
-      <div className="course-container">
-        {courses.map((course) => (
-          <div key={course.id} className="course-card">
-            <img src={course.image} alt={course.title} />
-            <h3>{course.title}</h3>
-            <p>Öğretmen: {course.teacher}</p>
-            <p>Değerlendirme: ⭐ {course.rating}</p>
-            <p>Fiyat: ₺{course.price}</p>
-            <button onClick={() => onEnroll(course)}>Kaydol</button>
-          </div>
-        ))}
+      <Navbar /> {/* Navbar'ı burada gösteriyoruz */}
+      <div className="course-list">
+        <h2>Öğretmenlerin Yüklediği Dersler</h2>
+        <div className="course-container">
+          {courses.map((course) => (
+            <div key={course.id} className="course-card">
+              <img src={course.image} alt={course.title} />
+              <h3>{course.title}</h3>
+              <p>Öğretmen: {course.teacher}</p>
+              <p>Değerlendirme: ⭐ {course.rating}</p>
+              <p>Fiyat: ₺{course.price}</p>
+              <button onClick={() => onEnroll(course)}>Kaydol</button>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-    <Footer /> {/* Footer'ı burada gösteriyoruz */}
+      <Footer /> {/* Footer'ı burada gösteriyoruz */}
     </>
   );
 }

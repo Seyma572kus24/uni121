@@ -1,9 +1,9 @@
-import React from 'react';
-import Navbar from '../../components/Navbar/Navbar';
-import Slider from '../../components/Slider/Slider';
-import About from '../../components/About/About';
-import Features from '../../components/Features/Features';
-import Footer from '../../components/Footer/Footer';
+import React from "react";
+import Navbar from "../../components/Navbar/Navbar";
+import Slider from "../../components/Slider/Slider";
+import About from "../../components/About/About";
+import Features from "../../components/Features/Features";
+import Footer from "../../components/Footer/Footer";
 
 function HomePage() {
   return (
@@ -11,7 +11,7 @@ function HomePage() {
       <Navbar />
       <Slider />
       <About />
-      <Features/>
+      <Features />
       <Footer />
     </div>
   );
