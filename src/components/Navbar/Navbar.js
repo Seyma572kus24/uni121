@@ -12,7 +12,7 @@ function Navbar() {
       <ul className="navbar-links">
         <li><a href="#home">Ana Sayfa</a></li>
         <li><a href="#about">Hakkında</a></li>
-        <li><a href="#contact">İletişim</a></li>
+       
       </ul>
     </nav>
   );
