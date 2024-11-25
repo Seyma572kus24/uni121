@@ -1,6 +1,6 @@
-import React from 'react';
-import './Navbar.css';
-import logo from '../../assets/imagess/logo.png';
+import React from "react";
+import "./Navbar.css";
+import logo from "../../assets/imagess/logo.png";
 
 function Navbar() {
   return (
@@ -10,9 +10,15 @@ function Navbar() {
         <span>Merkezsiz Üniversite</span>
       </div>
       <ul className="navbar-links">
-        <li><a href="#home">Ana Sayfa</a></li>
-        <li><a href="#about">Hakkında</a></li>
-       
+        <li>
+          <a href="#home">Ana Sayfa</a>
+        </li>
+        <li>
+          <a href="#about">Hakkında</a>
+        </li>
+        <li>
+          <a href="#contact">İletişim</a>
+        </li>
       </ul>
     </nav>
   );
